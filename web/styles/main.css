@@ -1,0 +1,42 @@
+*{
+  font-family: Finnegan, Verdana, sans-serif;
+  
+}
+h1{
+  font-size: 40px;
+}
+.welcome::first-letter{
+  font-size: 200%;
+}
+h2{
+  font-size: 30px;
+}
+h3{
+  font-size: 20px;
+}
+header img{
+  float: left;
+}
+header{
+  text-indent: 20px;
+}
+header h1{
+  color: orange;
+  font-style: italic;
+  text-shadow: 2px 2px black;
+}
+li{
+  margin-bottom: 5px;
+  
+}
+li a:link{
+  color: orange;
+}
+li a:hover{
+  color:green;
+}
+footer{
+  font-size: 10px;
+  text-align: center;
+}
+  
