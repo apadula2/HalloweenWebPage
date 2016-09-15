@@ -13,8 +13,9 @@ body{
   
 }
 h1{
-  font-size: 40px;
+  font-size: 35px;
   margin-top: 0px;
+  margin-bottom: 5px;
 }
 .welcome::first-letter{
   font-size: 200%;
@@ -40,11 +41,16 @@ p{
 li{
   margin-bottom: 5px; 
 }
-li a:link{
+ a:link{
   color: orange;
 }
-li a:hover{
+ a:hover{
   color:green;
+}
+section{
+  float:left;
+  width:160px;
+  height:600px;
 }
 footer{
   font-size: 15px;
@@ -52,5 +58,6 @@ footer{
   border-top: thin solid black;
   background-image:linear-gradient(45deg,black,orange,white);
   margin-bottom: -15px;
+ 
 }
   
