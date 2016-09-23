@@ -1,0 +1,154 @@
+html{
+  background-image: url('../../images/bats.gif');
+
+}
+body{
+  background-color: white;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  font-family: Finnegan, Verdana, sans-serif;
+  margin: auto;
+  margin-top:20px;
+  width: 800px;
+  text-align: center;
+}
+main{
+  height:655px;
+}
+h1{
+  font-size: 35px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+h3{
+  text-align: center;
+}
+
+
+header img{
+  float: left;
+}
+
+header{
+  border-bottom: thin solid black;
+  background-image: linear-gradient(45deg,white,orange,black);
+  text-indent: 20px;
+}
+
+main img{
+  display: inline;
+  float: left;
+}
+
+p{
+  font-size: 20px;
+  margin-top: 0px;
+  margin: 0;
+}
+
+li{
+  margin-bottom: 5px; 
+}
+
+section{
+  float: left;
+  height: 600px;
+  margin: 15px 50px 10px 15px;
+  width: 160px;
+}
+
+ul{
+  bottom: 0;
+  float: left;
+  left: 5px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  width: 20%;
+}
+
+#vertical a{
+  color: black;
+  background-color:orange;
+  border: 2px black solid;
+  border-color: black;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  height: 2em;
+  text-align: left;
+  text-decoration: none;
+  width: 10em;
+  
+}
+
+div{
+  width: 100%;
+}
+
+#rightBar{
+  background-color: #F5DEB3;
+  float: right;
+  height: 620px;
+  width: 180px;
+}
+
+#rightBar img{
+  height: 100px;
+  margin-left:40px;
+  width: 100px;
+}
+
+#rightBar a{
+ color: black;
+ margin-left: 40px;
+ text-decoration:none;
+ white-space: nowrap;
+}
+
+#rightBar a:hover{
+  color:green;
+}
+
+.horizontal{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.horizontal li{
+  display: block;
+  float: left;
+  height: 30px;
+}
+
+.horizontal a{
+  color: white;
+  font-size: 20px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.horizontal a:hover{
+  color: gray;
+}
+
+footer{
+  background-image: linear-gradient(45deg,black,orange,white);
+  border-top: thin solid black;
+  font-size: 15px;
+  width: 100%;
+  position: relative;
+  
+}
+
+footer p{
+  margin-right: 150px;
+  text-align: center;
+}
+  
