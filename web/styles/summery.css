@@ -1,0 +1,155 @@
+html{
+  background-image: url('../../images/bats.gif');
+}
+body{
+  background-color: white;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  font-family: Finnegan, Verdana, sans-serif;
+  height: 100%;
+  margin: auto;
+  width: 900px;
+}
+
+h1{
+  font-size: 35px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+h2{
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+header img{
+  float: left;
+}
+
+header{
+  border-bottom: thin solid black;
+  background-image: linear-gradient(45deg,white,orange,black);
+  text-indent: 20px;
+}
+
+li{
+  margin-bottom: 5px; 
+}
+
+section{
+  float: left;
+  height: 600px;
+  margin: 15px 50px 10px 15px;
+  width: 160px;
+}
+
+ul{
+  bottom: 0;
+  float: left;
+  left: 5px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  width: 20%;
+}
+
+.vertical a{
+  color: black;
+  background-color:orange;
+  border: 2px black solid;
+  border-color: black;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  height: 2em;
+  text-align: left;
+  text-decoration: none;
+  width: 10em;
+  
+}
+
+div{
+  width: 100%;
+}
+
+.horizontal{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.horizontal li{
+  display: block;
+  float: left;
+  height: 30px;
+  padding: 0 10px; 
+}
+
+.horizontal a{
+  color: white;
+  font-size: 20px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.horizontal a:hover{
+  color: gray;
+}
+
+main a,.current a{
+  color: orange;
+}
+
+figcaption{
+  font-size:30px;
+  font-weight:bold;
+  margin-left:400px;
+}
+
+.left, .headers{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.headers{
+  margin-left:20px;
+}
+
+table{
+margin-bottom: 20px;
+width:600px;
+}
+
+th{
+  text-align: left;
+}
+
+td{
+  vertical-align: top;
+}
+table a{
+  color: black;
+  white-space: nowrap;
+}
+
+.right,table td:nth-of-type(3n){
+  background-color: #F5DEB3;
+}
+
+footer{
+  background-image: linear-gradient(45deg,black,orange,white);
+  border-top: thin solid black;
+  font-size: 15px;
+  margin-bottom: -15px;
+  width: 100%;
+}
+
+footer p{
+  margin-right: 150px;
+  text-align: center;
+}
+  

@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<!-- Alexis Padula All work is my own -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Halloween Page</title>
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/email.css">
+  </head>
+
+  <body>
+    <header>
+      <img src="images/pumpkin.gif" alt="Pumpkin">
+      <h1>The Halloween Store</h1>
+      <h2>For the little Goblin in all of us!</h2>  
+    </header>
+    
+    <div>
+      <ul class="horizontal">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Product List</a></li>
+        <li><a href="#">Personal</a></li>
+        <li><a href="#">Decorating Ideas</a></li>
+        <li class="current"><a href="#">Join Email</a></li>
+      </ul>
+    </div>
+    <section>
+      <ul class="vertical">
+        <li><a href="slides/products/props.htm" title="Props page">Props</a></li>
+        <li><a href="slides/products/costumes.htm" title="Costumes page">Costumes</a></li>
+        <li><a href="slides/products/specialEffects.htm" title="Special effects page">Special Effects</a></li>
+        <li><a href="slides/products/masks.htm" title="Masks page">Masks</a></li>
+      </ul>
+    </section>
+    <main>
+      <h1>Please enter the following information</h1>
+      <form>
+        <label>First Name:</label>
+        <input type="text" name="firstname" autofocus required><br>
+        <label>Last Name:</label>
+        <input type="text" name="lastname" required><br>
+        <label>Email:</label>
+        <input type="email" name="email" required><br>
+        <label> Zip Code:</label>
+        <input type="text" name="zip" pattern="^^[0-9]{5}$" title="Please enter valid ZipCode" placeholder="07840"><br>
+        <input id="submitBtn" type="button" value="Subscribe" >
+      </form>
+    </main>
+    <footer>
+      <p> &copy; 2016 Ben Murach</p>
+    </footer>
+  </body>
+</html>
