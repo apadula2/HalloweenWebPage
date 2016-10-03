@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Halloween Page</title>
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/main_rwd.css" media="screen">
@@ -16,8 +16,12 @@
       <h1>The Halloween Store</h1>
       <h2>For the little Goblin in all of us!</h2>  
     </header>
-    <div>
       <nav id="horizontalHamburger">
+        <div>
+        <a id="hamburger">
+          &#9776;
+        </a>
+        </div>
       <ul class="horizontal">
         <li class="current"><a href="index.html">Home</a></li>
         <li><a href="#">Product List</a></li>
@@ -26,7 +30,6 @@
         <li><a href="#">Join Email</a></li>
       </ul>
       </nav>
-    </div>
     <section>
       <ul class="vertical">
         <li><a href="slides/products/props.htm" title="Props page">Props</a></li>
@@ -49,5 +52,6 @@
     <footer>
       <p> &copy; 2016 Ben Murach</p>
     </footer>
+    <script src="js/hamburger.js"></script>
   </body>
 </html>

@@ -13,6 +13,9 @@ body{
   margin: 0 5% 0 5%;
   
 }
+#hamburger{
+  display:none;
+}
 
 h1{
   font-size: 250%;
@@ -93,11 +96,6 @@ ul{
   width: 10em;
   
 }
-
-div{
-  width: 100%;
-}
-
 .horizontal{
   background-color: black;
   margin: 0;
@@ -167,20 +165,29 @@ footer p{
 }
 
 @media only screen and (max-width: 767px){
-  div{
+ 
+  nav div{
     background-color: black;
-    color:white;
+    visibility:visible;
     text-align:right;
   }
-  nav{
-    width:300px;
-    position: absolute;
-    transform:translate(-300px,0);
+  #hamburger{
+    display: inline;
+    color: white;
   }
-  nav.open{
-    transform: translate(0,0);
   
+  
+  .horizontal{
+    width:25%;
+    position: absolute;
+    transform:translate(-500px,0);
   }
+ .horizontal.open{
+    transform: translate(100px,200px);
+    position: absolute;
+  }
+
+  
 }
   
 
